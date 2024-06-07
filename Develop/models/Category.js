@@ -26,4 +26,9 @@ Category.init(
   }
 );
 
+// module.exports = async function Category(){
+//   const product = await import('./Product.js');
+//   const a = product.default();
+// };
+
 module.exports = Category;

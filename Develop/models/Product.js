@@ -47,4 +47,9 @@ Product.init(
   },
 );
 
+// module.exports = async function Product (){
+//   const category = await import('./Category');
+//   const b =category.default();
+// };
+
 module.exports = Product;
